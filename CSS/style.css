@@ -1,0 +1,190 @@
+*{
+
+    font-family: sans-serif;
+  }
+.container-fluid{
+      padding: 0 !important;
+  }
+  .row{
+    width: 100%;
+  }
+.header{
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    padding-top: 10px;
+    background-color: #3d3a3a;
+    z-index: 10;
+  }
+.header .col-lg-2{
+      text-align: center;
+  }
+.header .bg-light{
+      background-color: #3d3a3a !important;
+  }
+.header .nav-link{
+      color: #1DB954 !important;
+  }
+.header img{
+    width: 30px;
+    border-radius: 100px;
+  }
+.header input{
+      border-radius: 50px;
+      width: 350px;
+  }
+.header .navbar{
+      padding: 0 !important;
+  }
+.header button{
+      border-radius: 50px;
+  }
+.header .information{
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 5px;
+  }
+.header li{
+    margin-left: 5px;
+  }
+.dropdown-menu{
+      background-color: black !important;
+  }
+.dropdown-menu a{
+      background-color: #000;
+      color: #198754;
+  }
+.dropdown-menu a:hover{
+      background-color: chartreuse;
+      color: #3d3a3a;
+  }
+.menu{
+    background-color: #000;
+    height: 1500px;
+    width: 100%;
+  }
+a{
+    text-decoration: none;
+    border-radius: 30px;
+}
+a:hover{
+    background-color: #198754;
+    color: #3d3a3a !important;
+}
+.menu .col-lg-2{
+    background-image: linear-gradient(0,rgb(22, 20, 20),rgb(8, 5, 5));
+    border: 1px solid #000;
+    margin-top: 61px;
+    box-sizing: border-box;
+    height: 100%;
+    position: fixed;
+    padding: 0;
+}
+.menu li{
+    margin: 20px;
+    font-size: 17px;
+    border: 0px;
+    color: #1DB954;
+    border-radius: 15px;
+    text-align: center;
+    list-style: none;
+}
+.menu li:hover{
+    background-color: #198754;
+    color: #3d3a3a;
+}
+h4{
+    margin: 20px;
+    color: #1DB954;
+    font-size: 30px;
+}
+.menu .col-lg-10{
+    background-image: linear-gradient(0,rgb(22, 20, 20),rgb(8, 5, 5));
+    margin-top: 61px;
+    height: 500px;
+    margin-left: 16.667%; 
+    padding: 0 !important;
+}
+.slide{
+  width: 100%;
+}
+.slide img{
+  height: 450px;
+}
+.menu .card{
+  border-radius: 15px !important;
+  width: 100%;
+  text-align: center;
+  border-radius: 80px;
+  z-index: 1;
+  background-color: #114d26;
+  color: #000;
+}
+.menu .col-lg-3 p{
+  margin-bottom: 5px !important;
+}
+.card img{
+  width: 90%;
+  border-radius: 15px !important;
+}
+.menu .col-lg-3{
+  padding-top: 10px;
+}
+audio{
+  width: 100%;
+}
+
+.loginpage{
+  margin: 0;
+  padding: 0;
+
+}
+
+.login{
+  background: #66806A;
+  color: #FFF1AF;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 30px 50px;
+}
+
+.login p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.login input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.login input[type="text"], .login input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.login .signin{
+border: 1px solid #fff;
+text-align: center;
+background-color: #FFF1AF;
+font-family: sans-serif;
+font-size: 18px;
+width: 100%;
+outline: none;
+}
+.login h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
